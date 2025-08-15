@@ -2,11 +2,11 @@
 # Adapted from: https://gist.github.com/Willsr71/e4884be88f98b4c298692975c0ec8edb
 
 # NOTE: repository is the full name, e.g. owner/repo
-repository=$2
-pr_number=$3
-branch_name=$4
-workflow_name=$5
-artifact_name=$6
+repository=$1
+pr_number=$2
+branch_name=$3
+workflow_name=$4
+artifact_name=$5
 
 echoerr() { echo "$@" 1>&2; }
 
